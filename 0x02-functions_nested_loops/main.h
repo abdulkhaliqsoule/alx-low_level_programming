@@ -22,4 +22,10 @@ void print_alphabet_x10(void);
  * Return: 1 or 0
  */
 int _islower(int c);
+/**
+ * _isalpha - prints if character is alphabet
+ * @c: character to use
+ * Return: 1 or 0
+ */
+int _isalpha(int c);
 #endif
