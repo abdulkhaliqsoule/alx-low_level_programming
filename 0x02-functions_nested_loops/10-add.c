@@ -4,7 +4,7 @@
  * @x: first integer
  * @y: second integer
  *
- * Return - sum of both integers
+ * Return: sum of both integers
  */
 int add(int x, int y)
 {
