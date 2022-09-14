@@ -65,4 +65,10 @@ void times_table(void);
  * Return: returns a sum
  */
 int add(int, int);
+/**
+ * print_to_98 - prints to 98
+ * @n: integer to start at
+ *
+ */
+void print_to_98(int n);
 #endif
