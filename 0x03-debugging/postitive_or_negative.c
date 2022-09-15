@@ -21,5 +21,4 @@ void positive_or_negative(int i)
 	{
 		printf("%d is negative", i);
 	}
-	printf("\n");
 }
