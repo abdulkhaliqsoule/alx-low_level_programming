@@ -93,6 +93,12 @@ int _isdigit(int c);
  * Return: returns product of the two integers
  */
 int mul(int a, int b);
+/**
+ * print_numbers - prints the numbers 0 to 9 followed by a new line
+ *
+ * Return: always return void
+ */
+void print_numbers(void);
 
 #endif
 
