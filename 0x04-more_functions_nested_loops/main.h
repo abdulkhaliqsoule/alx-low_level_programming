@@ -116,5 +116,5 @@ void more_numbers(void);
  *
  * @n: integer to indicate number of times '_' is printed.
  */
-void print_line(int n)
+void print_line(int n);
 #endif
