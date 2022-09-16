@@ -142,4 +142,10 @@ int main(void);
  * @size: size of triangle
  */
 void print_triangle(int size);
+/**
+ * main - main function
+ *
+ * Return: returns 0
+ */
+int main(void);
 #endif
