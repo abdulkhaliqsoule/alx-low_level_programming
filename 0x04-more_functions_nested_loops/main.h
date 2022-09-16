@@ -136,4 +136,10 @@ void print_square(int size);
  * Return: a number
  */
 int main(void);
+/**
+ * print_triangle - prints triangle
+ *
+ * @size: size of triangle
+ */
+void print_triangle(int size);
 #endif
