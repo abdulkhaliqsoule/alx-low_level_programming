@@ -85,6 +85,14 @@ int _isupper(int c);
  * Return: returns 1 if its a digit and 0 if otherwise.
  */
 int _isdigit(int c);
+/**
+ * mul - multiplies two integers
+ * @a: first integer
+ * @b:second integer
+ *
+ * Return: returns product of the two integers
+ */
+int mul(int a, int b);
 
 #endif
 
