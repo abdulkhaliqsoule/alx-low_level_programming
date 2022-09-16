@@ -117,4 +117,10 @@ void more_numbers(void);
  * @n: integer to indicate number of times '_' is printed.
  */
 void print_line(int n);
+/**
+ * print_diagonal - prints diagonal stuff
+ *
+ * @n: integer to set diagonal
+ */
+void print_diagonal(int n);
 #endif
