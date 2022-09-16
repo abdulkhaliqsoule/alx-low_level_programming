@@ -1,5 +1,5 @@
 #include <stdio.h>
-#iclude "main.h"
+#include "main.h"
 /**
  * main - main function
  *
