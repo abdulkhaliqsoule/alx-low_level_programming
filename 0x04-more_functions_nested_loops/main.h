@@ -72,10 +72,19 @@ int add(int, int);
  */
 void print_to_98(int n);
 /**
- * int _isupper - checks if uppercase or not
+ * _isupper - checks if uppercase or not
  * @c: character to check
  *
  * Return: returns 1 or 0
  */
 int _isupper(int c);
+/**
+ *_isdigit - checks for a digit(0 through 9)
+ *@c: data to check its type
+ *
+ * Return: returns 1 if its a digit and 0 if otherwise.
+ */
+int _isdigit(int c);
+
 #endif
+
