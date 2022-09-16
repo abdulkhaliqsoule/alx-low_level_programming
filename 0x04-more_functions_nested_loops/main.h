@@ -129,4 +129,11 @@ void print_diagonal(int n);
  * @size: integer to set square size
  */
 void print_square(int size);
+/**
+ * main - main function
+ *
+ *
+ * Return: a number
+ */
+int main(void);
 #endif
