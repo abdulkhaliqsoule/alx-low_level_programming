@@ -148,4 +148,10 @@ void print_triangle(int size);
  * Return: returns 0
  */
 int main(void);
+/**
+ * print_number - prints number
+ *
+ * @n: integer to print to character
+ */
+void print_number(int n);
 #endif
