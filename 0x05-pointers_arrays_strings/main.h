@@ -174,4 +174,10 @@ void swap_int(int *a, int *b);
  * Return: returns length
  */
 int _strlen(char *s);
+/**
+ * _puts - puts a string
+ *
+ * @str: string to print
+ */
+void _puts(char *str);
 #endif
