@@ -180,4 +180,28 @@ int _strlen(char *s);
  * @str: string to print
  */
 void _puts(char *str);
+/**
+ * print_rev - reverse a string
+ *
+ * @s: string to print
+ */
+void print_rev(char *s);
+/**
+ * rev_string - reverse a string value
+ *
+ * @s: string to print
+ */
+void rev_string(char *s);
+/**
+ * puts2 - puts string twice
+ *
+ * @str: string to put twice
+ */
+void puts2(char *str);
+/**
+ * puts_half - puts half of int
+ *
+ * @str: string to split
+ */
+void puts_half(char *str);
 #endif
