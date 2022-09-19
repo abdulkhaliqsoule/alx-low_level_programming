@@ -160,4 +160,11 @@ void print_number(int n);
  * @n: variable with pointer
  */
 void reset_to_98(int *n);
+/**
+ * swap_int - swaps integers
+ *
+ * @a: first integer
+ * @b: second integer
+ */
+void swap_int(int *a, int *b);
 #endif
