@@ -204,4 +204,20 @@ void puts2(char *str);
  * @str: string to split
  */
 void puts_half(char *str);
+/**
+ * print_array - prints array
+ * @a: pointer of array
+ * @n: how many times to prints
+ *
+ */
+void print_array(int *a, int n);
+/**
+ * _strcpy - main function to copy
+ *
+ * @dest: destination to copy
+ * @src: src
+ *
+ * Return: a character value
+ */
+char *_strcpy(char *dest, char *src);
 #endif
