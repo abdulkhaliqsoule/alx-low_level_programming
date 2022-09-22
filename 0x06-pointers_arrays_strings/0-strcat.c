@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * _strcat - appends the src string to the dest string
  * @dest: destination of concat
