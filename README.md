@@ -1,1 +1,1 @@
-This is a script for programming in C
+This is a README for programming in C
