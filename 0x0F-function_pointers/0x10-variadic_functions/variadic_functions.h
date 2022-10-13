@@ -16,4 +16,12 @@ int sum_them_all(const unsigned int n, ...);
  * On error, -1 is returned, and errno is set appropriately.
  */
 int _putchar(char c);
+/**
+ * print_numbers - prints numbers followed by a new line
+ * @separator: string to be printed between numbers
+ * @n: number of integers passed into the function
+ *
+ * Return: Nothing.
+ */
+void print_numbers(const char *separator, const unsigned int n, ...);
 #endif
