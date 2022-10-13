@@ -24,4 +24,12 @@ int _putchar(char c);
  * Return: Nothing.
  */
 void print_numbers(const char *separator, const unsigned int n, ...);
+/**
+ * print_strings - prints strings followed by a new line
+ * @separator: string to be printed between numbers
+ * @n: number of integers passed into the function
+ *
+ * Return: Nothing.
+ */
+void print_strings(const char *separator, const unsigned int n, ...);
 #endif
