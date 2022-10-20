@@ -9,7 +9,7 @@ int _putchar(char c);
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- * for ALX project 
+ * for ALX project
  */
 typedef struct list_s
 {
