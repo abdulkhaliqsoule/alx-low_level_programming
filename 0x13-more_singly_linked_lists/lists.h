@@ -41,7 +41,7 @@ size_t listint_len(const listint_t *h);
 /**
  * add_nodeint - adds a new node at the begining of a listint_t list
  * @head: head of list
- * n: integer
+ * @n: integer
  *
  * Return: address of new element or NULL
  */
