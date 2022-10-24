@@ -26,7 +26,7 @@ typedef struct listint_s
 } listint_t;
 /**
  * print_listint - prints all elements of a listint_t list
- * @h - header of listint_t
+ * @h:header of listint_t
  *
  * Return: number of nodes
  */
