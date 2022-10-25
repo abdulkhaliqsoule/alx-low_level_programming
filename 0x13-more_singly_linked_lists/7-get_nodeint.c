@@ -2,7 +2,7 @@
 /**
  * get_nodeint_at_index - returns the nth node of a listint_t linked list
  * @head: head of lisint_t list
- * index: index of node to return
+ * @index: index of node to return
  *
  * Return: node at the index
  */
