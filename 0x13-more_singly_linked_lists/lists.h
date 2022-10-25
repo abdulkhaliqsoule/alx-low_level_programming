@@ -89,5 +89,14 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);
  *
  * Return: sum or 0
  */
- int sum_listint(listint_t *head);
+int sum_listint(listint_t *head);
+/**
+ * insert_nodeint_at_index - inserts a new node at a given position
+ * @head: pointer to head of listint_t list
+ * @idx: index 
+ * @n number: number to insert at node
+ *
+ * Return: address of node or NULL
+ */
+listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n);
 #endif
