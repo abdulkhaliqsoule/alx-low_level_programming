@@ -46,4 +46,12 @@ size_t listint_len(const listint_t *h);
  * Return: address of new element or NULL
  */
 listint_t *add_nodeint(listint_t **head, const int n);
+/**
+ * add_nodeint_end - adds a new node at the end of a listint_t list
+ * @head: head of listint_t list
+ * @n: integer
+ *
+ * Return: address of the new element
+ */
+listint_t *add_nodeint_end(listint_t **head, const int n);
 #endif
