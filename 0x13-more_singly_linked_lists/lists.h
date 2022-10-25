@@ -93,7 +93,7 @@ int sum_listint(listint_t *head);
 /**
  * insert_nodeint_at_index - inserts a new node at a given position
  * @head: pointer to head of listint_t list
- * @idx: index 
+ * @idx: index
  * @n number: number to insert at node
  *
  * Return: address of node or NULL
