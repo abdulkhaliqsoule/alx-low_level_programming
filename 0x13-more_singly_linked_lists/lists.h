@@ -61,4 +61,26 @@ listint_t *add_nodeint_end(listint_t **head, const int n);
 * Return: void
 */
 void free_listint(listint_t *head);
+/**
+ * free_listint2 - frees a listint_t list
+ * @head: head pointer
+ *
+ * Return: void
+ */
+void free_listint2(listint_t **head);
+/**
+ * pop_listint - deletes the head node of a listint_t linked list
+ * @head: head o listint_t list
+ *
+ * Return: head node's data(n) or 0
+ */
+int pop_listint(listint_t **head);
+/**
+ * get_nodeint_at_index - returns the nth node of a listint_t linked list
+ * @head: head of lisint_t list
+ * index: index of node to return
+ *
+ * Return: node at the index
+ */
+listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);
 #endif
