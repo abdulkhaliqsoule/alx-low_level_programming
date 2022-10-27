@@ -104,7 +104,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n);
  * @head: pointer to head of listint_t list
  * @index: index to delete
  *
- * Return 1 or -1
+ * Return: 1 or -1
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index);
 /**
@@ -114,4 +114,25 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index);
  * Return: pointer to the first node in the new list
  */
 listint_t *reverse_listint(listint_t **head);
+/**
+ * print_listint_safe - prints a linked list, safely
+ * @head: list of type listint_t to print
+ *
+ * Return: number of nodes in the list
+ */
+size_t print_listint_safe(const listint_t *head);
+/**
+ * free_listint_safe - frees a linked list
+ * @h: pointer to the first node in the linked list
+ *
+ * Return: number of elements in the freed list
+ */
+size_t free_listint_safe(listint_t **h);
+/**
+ * find_listint_loop - finds the loop in a linked list
+ * @head: linked list to search for
+ *
+ * Return: address of the node where the loop starts, or NULL
+ */
+listint_t *find_listint_loop(listint_t *head);
 #endif
