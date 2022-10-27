@@ -99,4 +99,12 @@ int sum_listint(listint_t *head);
  * Return: address of node or NULL
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n);
+/**
+ * delete_nodeint_at_index - deletes node at index of a listint_t linked list
+ * @head: pointer to head of listint_t list
+ * @index: index to delete
+ *
+ * Return 1 or -1
+ */
+int delete_nodeint_at_index(listint_t **head, unsigned int index);
 #endif
