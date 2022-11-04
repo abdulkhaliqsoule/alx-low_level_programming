@@ -37,4 +37,18 @@ int create_file(const char *filename, char *text_content);
  * Return: int value
  */
 int append_text_to_file(const char *filename, char *text_content);
+/**
+ * main - program to copy
+ * @ac: argument count
+ * @av: array of arguments
+ * Return: a value
+ */
+int main(int ac, char **av);
+/**
+ * main - program to copy
+ * @ac: argument count
+ * @av: array of arguments
+ * Return: a value
+ */
+int main(int ac, char **av);
 #endif
