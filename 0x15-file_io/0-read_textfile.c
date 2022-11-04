@@ -17,12 +17,12 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (filename == NULL)
 		return (0);
 	fd = open(filename, O_RDONLY);
-	printf("fd = %d/n", fd);
 	if (fd == -1)
 		return (0);
+	printed = read(fd, buff, letters);
 	if (printed == -1)
 		return (0);
-	wrote = write(1, buff, printed);
+	wrote = write(STDOUT_FILENO, buff, printed);
 	if (wrote == -1)
 		return (0);
 	if (close(fd) == -1)
